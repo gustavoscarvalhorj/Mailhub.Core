@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mailhub.Core", "Mailhub.Core\Mailhub.Core.csproj", "{671D9F54-B09E-49FE-B393-84C09E3B29EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mailhub.Core.Test", "Mailhub.Core.Test\Mailhub.Core.Test.csproj", "{3F178928-86EA-401E-9528-E5ADD56A578D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{671D9F54-B09E-49FE-B393-84C09E3B29EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671D9F54-B09E-49FE-B393-84C09E3B29EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671D9F54-B09E-49FE-B393-84C09E3B29EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671D9F54-B09E-49FE-B393-84C09E3B29EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F178928-86EA-401E-9528-E5ADD56A578D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F178928-86EA-401E-9528-E5ADD56A578D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F178928-86EA-401E-9528-E5ADD56A578D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F178928-86EA-401E-9528-E5ADD56A578D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {317B909C-BD26-4DA2-B3C0-71CB844A9C5D}
+	EndGlobalSection
+EndGlobal
