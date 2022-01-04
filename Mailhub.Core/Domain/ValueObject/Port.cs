@@ -14,6 +14,8 @@ namespace Mailhub.Core.Domain.ValueObject
             _port = port;
         }
 
+        public static implicit operator int(Port p) => p._port;
+
         public override string ToString() => _port.ToString();
     }
 }
