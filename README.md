@@ -10,7 +10,7 @@ O problema do cenário acima é o alto acoplamento do projeto com a biblioteca S
 
 O ideal para mitigar esse cenário, seria você criar abstrações para isolar a implementação em classes especializadas nesse tipo de ação, como por exemplo: ter uma classe *MailSmtpService* que esteja altamente acoplada ao System.Net.Mail. 
 
-A questão é que criar abstrações e especializações para esse tipo de serviço é trabalhoso e acaba não sendo valorizado pela equipe de desenvolvimento, pois afinal: "Só queremos enviar um e-mail". Isso faz com que muitas vezes essas abstrações não sejam realizadas e força a equipe de desenvolvimento a criar soluções de contorno para quando queremos trocar o envio de e-mail de SMTP para qualquer outro protoloco, por exemplo.
+A questão é que criar abstrações e especializações para esse tipo de serviço é trabalhoso e acaba não sendo valorizado pela equipe de desenvolvimento, pois afinal: "Só queremos enviar um e-mail". Isso faz com que muitas vezes essas abstrações não sejam realizadas e força a equipe de desenvolvimento a criar soluções de contorno para quando queremos trocar o envio de e-mail de SMTP para qualquer outro protocolo.
 
 ## Onde entra o MailHub.Core:
 
