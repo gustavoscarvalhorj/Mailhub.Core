@@ -8,7 +8,9 @@ Quando falamos em envio de e-mail através do .NET, a primeira coisa que pensamo
 
 O problema do cenário acima é o alto acoplamento do projeto com a biblioteca System.Net.Mail que só trabalha com o envio de e-mail via SMTP. E, se por acaso, você precisar alterar o seu projeto para enviar email através de um serviço externo via HTTP ou através de uma Queue/Log do RabbitMQ ou Apache Kafka? Possivelmente, você vai ter que refatorar todo o seu projeto ou vai fazer algum “contorno” para tratar essa situação.
 
-O ideal para mitigar esse cenário, seria você criar abstrações para isolar a implementação em classes especializadas nesse tipo de ação, como por exemplo: ter uma classe *MailSmtpService* que esteja altamente acoplada ao System.Net.Mail. A questão é que criar abstrações e especializações para esse tipo de serviço é trabalhoso e acaba não sendo valorizado pela equipe de desenvolvimento, pois afinal: "Só queremos enviar um e-mail". Isso faz com que muitas vezes essas abstrações não sejam realizadas e força a equipe de desenvolvimento a criar soluções de contorno para quando queremos trocar o envio de e-mail de SMTP para qualquer outro protoloco, por exemplo.
+O ideal para mitigar esse cenário, seria você criar abstrações para isolar a implementação em classes especializadas nesse tipo de ação, como por exemplo: ter uma classe *MailSmtpService* que esteja altamente acoplada ao System.Net.Mail. 
+
+A questão é que criar abstrações e especializações para esse tipo de serviço é trabalhoso e acaba não sendo valorizado pela equipe de desenvolvimento, pois afinal: "Só queremos enviar um e-mail". Isso faz com que muitas vezes essas abstrações não sejam realizadas e força a equipe de desenvolvimento a criar soluções de contorno para quando queremos trocar o envio de e-mail de SMTP para qualquer outro protoloco, por exemplo.
 
 ## Onde entra o MailHub.Core:
 
