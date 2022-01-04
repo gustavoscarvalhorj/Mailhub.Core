@@ -61,7 +61,7 @@ public class EmailService : IEmailService<Message, SmtpCredentials>
     }
 }
 ```
-Obs.: Para maior entendimento, vale acessar o repositório do Mailhub.Smtp e visualizar a implementação deste serviço. 
+Obs.: Para maior entendimento, vale acessar o repositório do Mailhub.Smtp e visualizar a implementação deste serviço. Repare que a classe SmtpCredentials informada no exemplo acima faz parte do projeto Mailhub.Smtp. 
 
 ## License
 
