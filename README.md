@@ -1,7 +1,7 @@
 # MailHub.Core
 
 ## Introdução:
-Esse projeto foi desenvolvido para ser uma abstração de uma biblioteca de disparo de email. O intuito é padronizar a nomenclatura das classes e facilitar futuras mudanças de implementação das formas de envio.
+Esse projeto foi desenvolvido para ser uma abstração de uma biblioteca de disparo de email. O intuito é padronizar a nomenclatura das classes e facilitar futuras mudanças de implementação nas formas de envio.
 
 ## Cenário Hipotético:
 Quando falamos em envio de e-mail através do .NET, a primeira coisa que pensamos é utilizar as classes do namespace *System.Net.Mail* para fazer os disparos através de um servidor SMTP. Logo, é comum ver projetos utilizando a classe *MailMessage* espalhadas por todas as camadas de nossa aplicação.
