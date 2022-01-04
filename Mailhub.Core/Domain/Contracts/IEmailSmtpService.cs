@@ -2,8 +2,7 @@
 
 namespace Mailhub.Core.Domain.Contracts
 {
-    public interface IEmailSmtpService
+    public interface IEmailSmtpService : IEmailService<Message, SmtpCredentials>
     {
-        Task<Result> SendAsync(Message message, SmtpCredentials smtp);
     }
 }
