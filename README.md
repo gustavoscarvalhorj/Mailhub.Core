@@ -1,4 +1,4 @@
-# MailHub.Core [![Generic badge](https://img.shields.io/badge/v1.0.2-development-green.svg)](https://shields.io/)
+# MailHub.Core [![Generic badge](https://img.shields.io/badge/v1.0.3-development-green.svg)](https://shields.io/)
 
 ## Introdução:
 Esse projeto foi desenvolvido para ser uma abstração de uma biblioteca de disparo de email. O intuito é padronizar a nomenclatura das classes e facilitar futuras mudanças de implementação nas formas de envio.
