@@ -17,4 +17,4 @@ A questão é que criar abstrações e especializações para esse tipo de servi
 O MailHub.Core é uma bibilioteca que já possui os artefatos (classes, interfaces e value objects) para reduzir o trabalho desta abstração. Ao utilizar o Mailhub.Core com algumas implementações disponíveis como o [Mailhub.Smtp](https://github.com/gustavoscarvalhorj/Mailhub.Smtp), Mailhub.Http, MailHub.MessageBrokers você poderá trocar a forma que o seu e-mail sai da aplicação com o mínimo de esforço necessário dentro do seu projeto.
 
 ## Downsides:
-Como nem tudo são flores, caso você espalhe as classes do Mailhub.Core por dentro da sua aplicação, você poderá criará um alto acoplameneto do seu projeto com o  MailHub.Core. Como isso é uma decisão de design e precisá ser avaliada em relação ao tipo de projeto que vocês estão construindo, converse com a sua equipe e avalie os contras antes de prosseguir.
+Caso as classes do Mailhub.Core sejam espalhadas por dentro da sua aplicação, criará um alto acoplameneto do seu projeto com o MailHub.Core.
